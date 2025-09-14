@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores principais para o Tema Claro -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Cores de Fundo e Superfície para o Tema Claro -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorBackground">#F7F7F7</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+</resources>
+    
