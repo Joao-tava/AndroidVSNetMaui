@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Paridade.Views.ApiDataPage"
+             Title="Estados do Brasil"
+             BackgroundColor="{AppThemeBinding Light={StaticResource LightBackgroundColor},
+                                               Dark={StaticResource DarkBackgroundColor}}">
+
+    <Grid RowDefinitions="Auto,*"
+          Padding="10">
+
+        <!-- Botão de carregar -->
+        <Button Text="Carregar Estados"
+                Command="{Binding LoadEstadosCommand}"
+                Grid.Row="0"
+                Margin="0,0,0,10"
+                BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimaryColor},
+                                                  Dark={StaticResource DarkPrimaryColor}}"
+                TextColor="{AppThemeBinding Light={StaticResource LightTextColor},
+                                         Dark={StaticResource DarkTextColor}}" />
+
+        <!-- Lista rolável -->
+        <CollectionView ItemsSource="{Binding Estados}"
+                        Grid.Row="1"
+                        VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10"
+                           Margin="5"
+                           BorderColor="{AppThemeBinding Light={StaticResource LightBorderColor},
+                                                         Dark={StaticResource DarkBorderColor}}"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource LightCardColor},
+                                                             Dark={StaticResource DarkCardColor}}">
+                        <HorizontalStackLayout Spacing="10">
+                            <Label Text="{Binding Id}" 
+                                   FontSize="14" 
+                                   TextColor="{AppThemeBinding Light={StaticResource LightSecondaryTextColor},
+                                                               Dark={StaticResource DarkSecondaryTextColor}}" />
+                            <Label Text="{Binding Nome}" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold"
+                                   TextColor="{AppThemeBinding Light={StaticResource LightTextColor},
+                                                               Dark={StaticResource DarkTextColor}}" />
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

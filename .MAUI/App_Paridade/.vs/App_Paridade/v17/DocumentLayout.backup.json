@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Visual Studio 2022\\App_Paridade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|c:\\visual studio 2022\\app_paridade\\views\\locationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|solutionrelative:views\\locationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|c:\\visual studio 2022\\app_paridade\\views\\apidatapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|solutionrelative:views\\apidatapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|c:\\visual studio 2022\\app_paridade\\views\\itemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|solutionrelative:views\\itemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|c:\\visual studio 2022\\app_paridade\\views\\itemdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|solutionrelative:views\\itemdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|c:\\visual studio 2022\\app_paridade\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2148CBD3-C0EA-4C13-A72C-E44BAD0AA30E}|App_Paridade.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationPage.xaml",
+              "DocumentMoniker": "C:\\Visual Studio 2022\\App_Paridade\\Views\\LocationPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LocationPage.xaml",
+              "ToolTip": "C:\\Visual Studio 2022\\App_Paridade\\Views\\LocationPage.xaml",
+              "RelativeToolTip": "Views\\LocationPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T13:49:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemDetailPage.xaml",
+              "DocumentMoniker": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ItemDetailPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ItemDetailPage.xaml",
+              "ToolTip": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ItemDetailPage.xaml",
+              "RelativeToolTip": "Views\\ItemDetailPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T12:46:29.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemsPage.xaml",
+              "DocumentMoniker": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ItemsPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ItemsPage.xaml",
+              "ToolTip": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ItemsPage.xaml",
+              "RelativeToolTip": "Views\\ItemsPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T12:37:13.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Visual Studio 2022\\App_Paridade\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Visual Studio 2022\\App_Paridade\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgv2AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T12:17:08.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiDataPage.xaml",
+              "DocumentMoniker": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ApiDataPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ApiDataPage.xaml",
+              "ToolTip": "C:\\Visual Studio 2022\\App_Paridade\\Views\\ApiDataPage.xaml",
+              "RelativeToolTip": "Views\\ApiDataPage.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T12:10:34.219Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

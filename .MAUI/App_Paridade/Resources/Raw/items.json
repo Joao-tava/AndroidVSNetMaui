@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "Title": "Apple iPhone 15",
+    "Description": "Latest model smartphone"
+  },
+  {
+    "Id": 2,
+    "Title": "Samsung Galaxy S24",
+    "Description": "High-end Android phone"
+  },
+  {
+    "Id": 3,
+    "Title": "Google Pixel 8",
+    "Description": "Stock Android experience"
+  },
+  {
+    "Id": 4,
+    "Title": "MacBook Air M3",
+    "Description": "Lightweight Apple laptop"
+  },
+  {
+    "Id": 5,
+    "Title": "Dell XPS 15",
+    "Description": "Powerful Windows laptop"
+  },
+  {
+    "Id": 6,
+    "Title": "Sony WH-1000XM5",
+    "Description": "Noise-cancelling headphones"
+  },
+  {
+    "Id": 7,
+    "Title": "Bose QuietComfort Ultra",
+    "Description": "Premium comfort headphones"
+  },
+  {
+    "Id": 8,
+    "Title": "Apple Watch Series 9",
+    "Description": "Feature-rich smartwatch"
+  },
+  {
+    "Id": 9,
+    "Title": "Samsung Galaxy Watch 6",
+    "Description": "Android smartwatch competitor"
+  },
+  {
+    "Id": 10,
+    "Title": "Kindle Paperwhite",
+    "Description": "E-reader for books"
+  },
+  {
+    "Id": 11,
+    "Title": "iPad Air 5",
+    "Description": "Versatile Apple tablet"
+  },
+  {
+    "Id": 12,
+    "Title": "Samsung Galaxy Tab S9",
+    "Description": "Android tablet for productivity"
+  },
+  {
+    "Id": 13,
+    "Title": "GoPro HERO12 Black",
+    "Description": "Action camera for adventures"
+  },
+  {
+    "Id": 14,
+    "Title": "DJI Mini 4 Pro",
+    "Description": "Compact and powerful drone"
+  },
+  {
+    "Id": 15,
+    "Title": "Nintendo Switch OLED",
+    "Description": "Hybrid gaming console"
+  },
+  {
+    "Id": 16,
+    "Title": "PlayStation 5",
+    "Description": "Next-gen Sony gaming console"
+  },
+  {
+    "Id": 17,
+    "Title": "Xbox Series X",
+    "Description": "Powerful Microsoft console"
+  },
+  {
+    "Id": 18,
+    "Title": "Anker PowerCore III",
+    "Description": "Portable phone charger"
+  },
+  {
+    "Id": 19,
+    "Title": "Logitech MX Master 3S",
+    "Description": "Ergonomic wireless mouse"
+  },
+  {
+    "Id": 20,
+    "Title": "Keychron K2 Pro",
+    "Description": "Mechanical keyboard for typing"
+  }
+]

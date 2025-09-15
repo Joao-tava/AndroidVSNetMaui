@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- ========================= -->
+    <!-- CORES BASE (Light / Dark) -->
+    <!-- ========================= -->
+
+    <Color x:Key="LightBackgroundColor">#FFF8E7</Color>
+    <Color x:Key="DarkBackgroundColor">#2B1A0A</Color>
+
+    <Color x:Key="LightCardColor">#E9D9C0</Color>
+    <Color x:Key="DarkCardColor">#3B2E25</Color>
+
+    <Color x:Key="LightPrimaryColor">#F5B97B</Color>
+    <Color x:Key="DarkPrimaryColor">#C17E36</Color>
+
+    <Color x:Key="LightTextColor">#2A1C10</Color>
+    <Color x:Key="DarkTextColor">#F2E8DC</Color>
+
+    <Color x:Key="LightSecondaryTextColor">#6B5E55</Color>
+    <Color x:Key="DarkSecondaryTextColor">#CBB9A7</Color>
+
+    <Color x:Key="LightBorderColor">#D8CBB9</Color>
+    <Color x:Key="DarkBorderColor">#5C4639</Color>
+
+    <Color x:Key="LightAccentColor">#8B5E2E</Color>
+    <Color x:Key="DarkAccentColor">#E6A96D</Color>
+
+
+    <!-- ========================= -->
+    <!-- STYLES (usando AppThemeBinding com StaticResource) -->
+    <!-- ========================= -->
+
+    <!-- ContentPage padrão -->
+    <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor"
+            Value="{AppThemeBinding Light={StaticResource LightBackgroundColor},
+                                 Dark={StaticResource DarkBackgroundColor}}" />
+    </Style>
+
+    <!-- Label padrão -->
+    <Style TargetType="Label">
+        <Setter Property="TextColor"
+            Value="{AppThemeBinding Light={StaticResource LightTextColor},
+                                 Dark={StaticResource DarkTextColor}}" />
+    </Style>
+
+    <!-- Button padrão -->
+    <Style TargetType="Button">
+        <Setter Property="BackgroundColor"
+            Value="{AppThemeBinding Light={StaticResource LightPrimaryColor},
+                                 Dark={StaticResource DarkPrimaryColor}}" />
+        <Setter Property="TextColor"
+            Value="{AppThemeBinding Light={StaticResource LightTextColor},
+                                 Dark={StaticResource DarkTextColor}}" />
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Padding" Value="12,8" />
+    </Style>
+
+    <!-- Frame (cards) padrão -->
+    <Style TargetType="Frame">
+        <Setter Property="BackgroundColor"
+            Value="{AppThemeBinding Light={StaticResource LightCardColor},
+                                 Dark={StaticResource DarkCardColor}}" />
+        <Setter Property="BorderColor"
+            Value="{AppThemeBinding Light={StaticResource LightBorderColor},
+                                 Dark={StaticResource DarkBorderColor}}" />
+        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="HasShadow" Value="True" />
+    </Style>
+
+    <!-- Entry padrão -->
+    <Style TargetType="Entry">
+        <Setter Property="BackgroundColor"
+            Value="{AppThemeBinding Light={StaticResource LightCardColor},
+                                 Dark={StaticResource DarkCardColor}}" />
+        <Setter Property="TextColor"
+            Value="{AppThemeBinding Light={StaticResource LightTextColor},
+                                 Dark={StaticResource DarkTextColor}}" />
+    </Style>
+
+    <!-- SearchBar padrão -->
+    <Style TargetType="SearchBar">
+        <Setter Property="BackgroundColor"
+            Value="{AppThemeBinding Light={StaticResource LightCardColor},
+                                 Dark={StaticResource DarkCardColor}}" />
+        <Setter Property="TextColor"
+            Value="{AppThemeBinding Light={StaticResource LightTextColor},
+                                 Dark={StaticResource DarkTextColor}}" />
+        <Setter Property="PlaceholderColor"
+            Value="{AppThemeBinding Light={StaticResource LightSecondaryTextColor},
+                                 Dark={StaticResource DarkSecondaryTextColor}}" />
+    </Style>
+
+</ResourceDictionary>

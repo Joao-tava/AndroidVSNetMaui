@@ -1,0 +1,38 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:App_Paridade.ViewModels"
+             x:Class="App_Paridade.Views.ItemDetailPage"
+             Title="Detalhes"
+             BackgroundColor="{AppThemeBinding Light={StaticResource LightBackgroundColor},
+                                               Dark={StaticResource DarkBackgroundColor}}">
+
+    <ContentPage.BindingContext>
+        <vm:ItemDetailViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView Padding="20">
+        <VerticalStackLayout Spacing="10">
+            <!-- Título -->
+            <Label Text="{Binding Title}" 
+                   FontSize="24" 
+                   FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource LightTextColor},
+                                               Dark={StaticResource DarkTextColor}}" />
+
+            <!-- Subtítulo -->
+            <Label Text="{Binding Subtitle}" 
+                   FontSize="18"
+                   FontAttributes="Italic"
+                   TextColor="{AppThemeBinding Light={StaticResource LightSubtleTextColor},
+                                               Dark={StaticResource DarkSubtleTextColor}}" />
+
+            <!-- Descrição -->
+            <Label Text="{Binding Description}" 
+       FontSize="16"
+       LineBreakMode="WordWrap"
+       TextColor="{AppThemeBinding Light={StaticResource LightTextColor},
+                                       Dark=White}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
