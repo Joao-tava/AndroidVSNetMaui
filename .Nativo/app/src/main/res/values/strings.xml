@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Nativo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings para DetailFragment (Geolocalização) -->
+    <string name="location_label_default">Localização: Carregando...</string>
+    <string name="location_permission_denied_message">Localização: Permissão negada</string>
+    <string name="location_permission_denied_toast">Permissão de localização negada</string>
+    <string name="location_permission_rationale">Localização: É necessário conceder permissão.</string>
+    <string name="location_coordinates">Lat: %1$.2f, Lon: %2$.2f</string>
+    <string name="location_not_found">Localização: Não foi possível obter. Tente novamente.</string>
+    <string name="location_failure">Localização: Falha ao obter.</string>
+    <string name="location_permission_not_granted_fallback">Localização: Permissão não concedida (fallback).</string>
+
+    <!-- Placeholders e texto do botão para fragment_detail.xml -->
+    <string name="detail_item_name_placeholder">Nome do Item</string>
+    <string name="detail_item_description_placeholder">Descrição do Item</string>
+    <string name="get_location_button_text">Obter Localização</string>
+
+    <!-- Strings para fragment_list.xml -->
+    <string name="search_item_hint">Buscar item pelo nome...</string>
+    <string name="view_ibge_states_button_text">Ver Estados (IBGE)</string>
+
+    <!-- Strings para fragment_ibge.xml -->
+    <string name="error_loading_data">Erro ao carregar dados</string>
+
+    <!-- Strings para list_item_estado.xml -->
+    <string name="state_name_placeholder">Nome do Estado</string>
+    <string name="state_acronym_placeholder">SIGLA</string>
+
+    <!-- Strings para labels de fragmentos no nav_graph.xml -->
+    <string name="list_fragment_label">Lista de Itens Locais</string>
+    <string name="detail_fragment_label">Detalhe do Item</string>
+    <string name="ibge_fragment_label">Lista de Estados (IBGE)</string>
+
+</resources>

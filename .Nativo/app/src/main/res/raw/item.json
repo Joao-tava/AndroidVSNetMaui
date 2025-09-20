@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Produto Alpha", "description": "Descrição do Produto Alpha", "category": "Eletrônicos", "tags": ["novo", "destaque"] }, 
+    { "id": 2, "name": "Item Beta", "description": "Descrição do Item Beta", "category": "Livros", "tags": ["leitura", "ficção"] }, 
+    { "id": 3, "name": "Componente Gama", "description": "Descrição do Componente Gama", "category": "Hardware", "tags": ["pc", "upgrade"] }, 
+    { "id": 4, "name": "Peça Delta", "description": "Descrição da Peça Delta", "category": "Automotivo", "tags": ["manutenção", "carro"] }, 
+    { "id": 5, "name": "Material Épsilon", "description": "Descrição do Material Épsilon", "category": "Construção", "tags": ["obra", "reforma"] }, 
+    { "id": 6, "name": "Dispositivo Zeta", "description": "Descrição do Dispositivo Zeta", "category": "Gadgets", "tags": ["tecnologia", "portátil"] }, 
+    { "id": 7, "name": "Solução Eta", "description": "Descrição da Solução Eta", "category": "Software", "tags": ["produtividade", "app"] }, 
+    { "id": 8, "name": "Ferramenta Teta", "description": "Descrição da Ferramenta Teta", "category": "Ferramentas", "tags": ["diy", "manual"] }, 
+    { "id": 9, "name": "Sistema Iota", "description": "Descrição do Sistema Iota", "category": "TI", "tags": ["infraestrutura", "rede"] }, 
+    { "id": 10, "name": "Insumo Kappa", "description": "Descrição do Insumo Kappa", "category": "Industrial", "tags": ["matéria-prima", "produção"] }, 
+    { "id": 11, "name": "Agente Lambda", "description": "Descrição do Agente Lambda", "category": "Químicos", "tags": ["laboratório", "pesquisa"] }, 
+    { "id": 12, "name": "Módulo Mi", "description": "Descrição do Módulo Mi", "category": "Eletrônicos", "tags": ["componente", "iot"] }, 
+    { "id": 13, "name": "Recurso Ni", "description": "Descrição do Recurso Ni", "category": "Serviços", "tags": ["consultoria", "suporte"] }, 
+    { "id": 14, "name": "Elemento Csi", "description": "Descrição do Elemento Csi", "category": "Ciência", "tags": ["descoberta", "natural"] }, 
+    { "id": 15, "name": "Ativo Ômicron", "description": "Descrição do Ativo Ômicron", "category": "Financeiro", "tags": ["investimento", "mercado"] }, 
+    { "id": 16, "name": "Substância Pi", "description": "Descrição da Substância Pi", "category": "Farmacêutico", "tags": ["saúde", "medicina"] }, 
+    { "id": 17, "name": "Extrato Rho", "description": "Descrição do Extrato Rho", "category": "Alimentício", "tags": ["natural", "orgânico"] }, 
+    { "id": 18, "name": "Composto Sigma", "description": "Descrição do Composto Sigma", "category": "Industrial", "tags": ["química fina", "processo"] }, 
+    { "id": 19, "name": "Derivado Tau", "description": "Descrição do Derivado Tau", "category": "Químicos", "tags": ["industrial", "produto"] }, 
+    { "id": 20, "name": "Fórmula Ípsilon", "description": "Descrição da Fórmula Ípsilon", "category": "Pesquisa", "tags": ["desenvolvimento", "inovação"] }
+]
